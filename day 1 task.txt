@@ -1,0 +1,15 @@
+var element = document.createElement("div");
+element.setAttribute("class","Container")
+
+var element1 = document.createElement("div");
+element1.setAttribute("class","row")
+
+var element2 = document.createElement("div");
+element2.setAttribute("class","Col");
+element2.innerHTML="This is histroy";
+
+element1.append(element2);
+element.append(element1);
+document.body.append(element);
+
+
